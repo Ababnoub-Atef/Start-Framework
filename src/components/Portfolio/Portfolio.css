@@ -1,0 +1,30 @@
+.t-color {
+  color: #2c3e50;
+}
+
+#portfolio #line {
+  width: 80px;
+  height: 4px;
+  background-color: #2c3e50;
+  margin: 0 10px;
+}
+
+.card {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(13, 102, 120, 0.6);
+}
+
+.overlay {
+  background-color: rgba(13, 202, 240, 0.8);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
