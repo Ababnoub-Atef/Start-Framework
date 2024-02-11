@@ -21,29 +21,53 @@ export default function Contact() {
         </div>
 
         <div className="w-50 mx-auto">
-          <input
-            type="text"
-            className="form-control mt-5 mb-5 border-0 border-bottom"
-            placeholder="User Name"
-          />
+          <div class="input-container">
+            <input
+              id="uName"
+              type="text"
+              className="form-control mt-5 mb-5 border-0 border-bottom"
+              placeholder="User Name"
+            />
+            <label for="uName" class="input-label">
+              User Name
+            </label>
+          </div>
 
-          <input
-            type="number"
-            className="form-control mb-5 border-0 border-bottom"
-            placeholder="User Age"
-          />
+          <div class="input-container">
+            <input
+              id="uAge"
+              type="number"
+              className="form-control mb-5 border-0 border-bottom"
+              placeholder="User Age"
+            />
+            <label for="uAge" class="input-label">
+              User Age
+            </label>
+          </div>
 
-          <input
-            type="email"
-            className="form-control mb-5 border-0 border-bottom"
-            placeholder="User Email"
-          />
+          <div class="input-container">
+            <input
+              id="uEmail"
+              type="email"
+              className="form-control mb-5 border-0 border-bottom"
+              placeholder="User Email"
+            />
+            <label for="uEmail" class="input-label">
+              User Email
+            </label>
+          </div>
 
-          <input
-            type="password"
-            className="form-control mb-4 border-0 border-bottom"
-            placeholder="User Password"
-          />
+          <div class="input-container">
+            <input
+              id="uPass"
+              type="password"
+              className="form-control mb-4 border-0 border-bottom"
+              placeholder="User Password"
+            />
+            <label for="uPass" class="input-label">
+              User Password
+            </label>
+          </div>
 
           <button className="btn btn-outline-info px-5">Submit</button>
         </div>

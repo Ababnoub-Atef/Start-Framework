@@ -9,7 +9,51 @@
   margin: 0 10px;
 }
 
+#contact .input-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 6px 12px;
+  font-size: 16px;
+  color: #777;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+#contact .input-container {
+  position: relative;
+}
+
 #contact input:focus {
   outline: none;
   box-shadow: none;
+}
+
+#contact #uName:focus + label[for="uName"] {
+  top: -20px;
+  font-size: 12px;
+  color: #2c3e50;
+  opacity: 1;
+}
+
+#contact #uAge:focus + label[for="uAge"] {
+  top: -20px;
+  font-size: 12px;
+  color: #2c3e50;
+  opacity: 1;
+}
+
+#contact #uEmail:focus + label[for="uEmail"] {
+  top: -20px;
+  font-size: 12px;
+  color: #2c3e50;
+  opacity: 1;
+}
+
+#contact #uPass:focus + label[for="uPass"] {
+  top: -20px;
+  font-size: 12px;
+  color: #2c3e50;
+  opacity: 1;
 }
